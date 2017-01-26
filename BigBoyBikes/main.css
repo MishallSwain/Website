@@ -1,0 +1,53 @@
+body {
+  font-family: 'Lato', sans-serif;
+  background-image: url('http://wallpapercave.com/wp/jpuh4r0.jpg');
+  background-position: 50% 50%;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+.title {
+  font-family: 'Times New Roman';
+  text-align: center;
+  font-weight: 500;
+  font-size: 100px;
+  color:red;
+  text-shadow: 2px 2px 2px white;
+  height: 10px;
+}
+
+
+ul.topnav {
+    list-style-type: none;
+    margin: 165px;
+    padding: 0;
+    overflow: hidden;
+	background-color: rgba(0,0,0,0.8);
+}
+ul.topnav li {
+	float: left;
+}
+
+ul.topnav li a {
+    display: inline-block;
+    color: red;
+    padding: 20px 100px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.gallery {
+  margin-top: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery-item {
+  margin: 20px;
+}
+
+.gallery-item .thumbnail {
+  border: 5px solid red;
+}
