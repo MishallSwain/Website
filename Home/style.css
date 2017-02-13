@@ -52,7 +52,8 @@ img#picture {
 }
 
 .new , .trending{
-	height: 15em;
+	height: 16em;
+	width: 100%;
 	position: relative;
 	margin-top: 1.5%;
 	overflow: hidden;
@@ -60,7 +61,7 @@ img#picture {
 
 img#newpic, img#trenpic {
 	height: 91%;
-	width: 29.9%;
+	width: 60%;
 	margin-bottom: 2%;
 }
 
@@ -73,4 +74,16 @@ p {
 	margin: 0;
 	text-align: centre;
 	line-height: 3em;
+}
+img#left_holder{
+	height: 91%;
+	width: 10%;
+	margin-bottom: 2%;
+	
+}
+img#right_holder{
+	height: 91%;
+	width: 10%;
+	margin-bottom: 2%;
+	
 }
